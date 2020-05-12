@@ -20,27 +20,27 @@ export class MainContentComponent implements OnInit {
   constructor() {
     this.students[0] = {
       id: 1,
-      firstName: 'Lucas',
-      lastName: 'Phan',
+      firstName: 'Xay',
+      lastName: 'Sal',
       course: 'Programming'
     }
     this.students[1] = {
       id: 1,
-      firstName: 'Tom',
-      lastName: 'Brady',
-      course: 'Swimming'
+      firstName: 'Bill',
+      lastName: 'Ko',
+      course: 'Math'
     }
     this.students[2] = {
       id: 1,
-      firstName: 'Mark',
-      lastName: 'Zuc',
-      course: 'Business'
+      firstName: 'Jill',
+      lastName: 'Reed',
+      course: 'History'
     }
     this.students[3] = {
       id: 1,
-      firstName: 'Joe',
-      lastName: 'Biden',
-      course: 'Politics'
+      firstName: 'Phil',
+      lastName: 'Dunphy',
+      course: 'Business'
     }
   }
 
@@ -50,9 +50,9 @@ export class MainContentComponent implements OnInit {
   addStudent() {
     const student: IStudent = {
       id: 1,
-      firstName: 'Mike',
-      lastName: 'Tyson',
-      course: 'Boxing'
+      firstName: 'Alex',
+      lastName: 'Dunphy',
+      course: 'Bio-Chem'
     };
 
     this.students.push(student);

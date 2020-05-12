@@ -11,8 +11,8 @@ export class MainHeaderComponent implements OnInit {
   private lastName: string;
 
   constructor() {
-    this.firstName = 'Lucas';
-    this.lastName = 'Phan';
+    this.firstName = 'Xay';
+    this.lastName = 'Salinthone';
   }
 
   showGreeting() {
